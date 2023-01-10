@@ -93,8 +93,6 @@ int main() {
     double korelasiPearson = hitungKorelasiPearson();
     cout << "Nilai korelasi Pearson: " << korelasiPearson << endl;
 
-    double b = korelasiPearson * (hitungStandarDeviasiY() / hitungStandarDeviasiX());
-    double a = hitungRataRataY() - (b * hitungRataRataX());
     double koefisien;
 
     koefisien = (korelasiPearson*korelasiPearson)*100/100;
